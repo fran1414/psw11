@@ -1,0 +1,72 @@
+#dif1{
+    background-color: brown;
+    width: 20%;
+    height: 100%;
+}
+#dif2{
+    background-color: yellow;
+    width: 60%;
+    height: 100%;
+}
+#dif3{
+    background-color: green;
+    width: 20%;
+    height: 100%;
+}
+.titulo{
+    background-color: blue;
+    height: 120px;
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.center{
+    background-color: blue;
+    height: 650px;
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+#div1{
+    width: 50%;
+    height: 650px;
+    background-color: rgb(58, 9, 9);
+}
+#div2{
+    width: 50%;
+    height: 650px; 
+    background-color: rgb(233, 112, 112);
+
+}
+.rodape{
+    background-color: blue;
+    height: 120px;
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center; 
+}
+#div3{
+    background-color: lawngreen;
+    width: 30%;
+    height: 200px;  
+}
+#div4{
+
+background-color:blueviolet;
+    width: 40%;
+    height: 200px;
+}
+#div5{
+    background-color:lightcoral;
+    width: 30%;
+    height: 200px; 
+}
+#div6{
+    background-color:darkolivegreen;
+    width: 40%;
+    height: 200px;  
+}
