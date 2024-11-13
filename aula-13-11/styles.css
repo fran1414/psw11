@@ -1,0 +1,24 @@
+ul{
+    background-color: rgb(70, 196, 70);
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+
+}
+li{
+    float: left;
+    border-right: 1px solid white;
+}
+li a {
+
+color: black;
+display: block;
+text-align: center;
+width: 60px;
+padding: 50px 30px;
+text-decoration: none;
+}
+li a:hover{
+    background-color: beige;
+}
