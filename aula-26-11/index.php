@@ -1,13 +1,13 @@
 
 <?php
 $var="Bill Gates";
-$tipo= gettype"$var";
+$tipo= gettype($var);
 echo "$var .($tipo)<br>";
-$var = 12
+$var = 12;
 $tipo = gettype($var);
 echo "$var ($tipo)<br>";
 $var=3.1415;
-$tipo =grttype($var);
+$tipo =gettype($var);
 echo "$var ($tipo)<br>";
 $var =true;
 $tipo= gettype($var);
@@ -15,7 +15,7 @@ echo"$var ($tipo)<br>";
 ?>
 <?php 
 $var=null;
-if(is_null($var)0){
+if(is_null($var)){
     echo "Varialvel"."\$var" ."é nula/vazia!"."<br>";
 }
 $var = "Bill GAtes";
@@ -30,21 +30,21 @@ $var = false;
 if(is_bool($var)){
     echo"Variavel \$var é booleana!";
 }
-$var =float;
+$var = false;
 if(is_bool($var)){
     echo"Variavel \$var é real!";
 }
 $nota= array(1, 2, 3, 4, 5, 6);
 echo"br";
-echo $nota[1]: 1; 
+echo $nota[1];
 echo"br";
-echo $nota[2]: 2;
+echo $nota[2];
 echo"br";
-echo $nota[3]: 3;
+echo $nota[3];
 echo"br";
-echo $nota[4]: 4;
+echo $nota[4];
 echo"br";
-echo $nota[5]: 5;
+echo $nota[5];
 echo"br";
-echo $nota[6]: 6;
+echo $nota[6];
 ?>
