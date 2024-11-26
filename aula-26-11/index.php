@@ -15,7 +15,7 @@ echo"$var ($tipo)<br>";
 ?>
 <?php 
 if(is_null($var)0){
-    echo "Varialvel \$var é nula/vazia!<br>";
+    echo "Varialvel"."\$var" ."é nula/vazia!"."<br>";
 }
 $var = "Bill GAtes";
 if(is_string($var)){
@@ -28,4 +28,8 @@ if(is_integer($var)){
 $var = false;
 if(is_bool($var)){
     echo"Variavel \$var é booleana!";
+}
+$var =float;
+if(is_bool($var)){
+    echo"Variavel \$var é real!";
 }
