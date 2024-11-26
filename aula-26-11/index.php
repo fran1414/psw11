@@ -14,6 +14,7 @@ $tipo= gettype($var);
 echo"$var ($tipo)<br>";
 ?>
 <?php 
+$var=null;
 if(is_null($var)0){
     echo "Varialvel"."\$var" ."é nula/vazia!"."<br>";
 }
@@ -33,3 +34,17 @@ $var =float;
 if(is_bool($var)){
     echo"Variavel \$var é real!";
 }
+$nota= array(1, 2, 3, 4, 5, 6);
+echo"br";
+echo $nota[1]: 1; 
+echo"br";
+echo $nota[2]: 2;
+echo"br";
+echo $nota[3]: 3;
+echo"br";
+echo $nota[4]: 4;
+echo"br";
+echo $nota[5]: 5;
+echo"br";
+echo $nota[6]: 6;
+?>
