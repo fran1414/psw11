@@ -22,9 +22,5 @@
 </td>
 </tr>
     </table>
-    <?php
-    echo $_POST['aluno'];
-    echo $_POST['turma'];
-    ?>
 </body>
 </html>
