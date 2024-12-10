@@ -16,9 +16,9 @@
         </div>
     <div class="nav">
 <ul>
-  <li><a href="index.html">PÁGINA INICIAL</a></li>
-  <li><a href="cadaluno.html">CADASTRO DE ALUNOS</a></li>
-  <li><a href="listaaluno.html">LISTA DE ALUNOS</a></li>
+  <li><a href="atv03-framcielly-souza/index.php">PÁGINA INICIAL</a></li>
+  <li><a href="atv03-framcielly-souza/cadaluno.php">CADASTRO DE ALUNOS</a></li>
+  <li><a href="atv03-framcielly-souza/listaaluno.php">LISTA DE ALUNOS</a></li>
   </div>
   
   </ul>
@@ -26,7 +26,7 @@
   </div>
     
   <br>
-  <form action="listaaluno.php"
+  <form action="listaaluno.php" method="post">
     <div id="a1">
     <label>Nome</label>
       <input type="text" name="nome" id="nome" placeholder="Ex: Ana...">
@@ -43,9 +43,21 @@
      
     <div id="a4">
       <label>Cidade</label>
-      <input type="text" name="cid" id="cid" placeholder="Ex: Guanambi..."></div>
-      
-
+      <input type="text" name="cid" id="cid" placeholder="Ex: Guanambi...">
+    </div>
+    <div id="a5">
+      <label >CPF</label>
+                    <input type="number" id="cpf" name="cpf" maxlength="14" placeholder="Ex: 000.000.000-00">
+                    </div>
+               <div id="a6">     
+            <label >Celular</label>
+                    <input type="number" id="cel" name="cel" placeholder="Ex:(DDD) 0000-0000">
+      </div>
+      <div id="a7">
+         <label >WhatsApp</label>
+                    <input type="number" id="num" name="num" placeholder="Ex:+55(DDD) 0000-0000">
+                      </div>     
+<div id="a8">
 <label>UF</label>
     <select id="uf" name="uf">
       <option value="AC">AC</option>
@@ -75,20 +87,12 @@
       <option value="SE">SE</option>
       <option value="TO">TO</option>
     </select>
-    <br>
+   
+    </div>
     
-  
-      <label >CPF</label>
-                    <input type="number" id="cpf" name="cpf" maxlength="14" placeholder="Ex: 000.000.000-00">
-                    
-            <label >Celular</label>
-                    <input type="number" id="cel" name="cel" placeholder="Ex:(DDD) 0000-0000">
-      
-         <label >WhatsApp</label>
-                    <input type="number" id="num" name="num" placeholder="Ex:+55(DDD) 0000-0000"><br>
-                                        
+               <div id="a9">
                  <label>Data de Nascimento</label> <input type="date" id="nascimento" name="nascimento" placeholder="DD/MM/AA"><br>
-                 
+                 </div>
         <label><h4>Disciplinas Preferidas</h4></label>
         <label for="m1">Banco de Dados</label>
 <input type="checkbox" id="m1" name="m1" value="Materias Curriculares EM com todas do curso técnico">

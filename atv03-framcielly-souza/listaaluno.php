@@ -16,9 +16,9 @@
         </div>
     <div class="nav">
 <ul>
-  <li><a href="index.html">PÁGINA INICIAL</a></li>
-  <li><a href="cadaluno.html">CADASTRO DE ALUNOS</a></li>
-  <li><a href="listaaluno.html">LISTA DE ALUNOS</a></li>
+  <li><a href="atv03-framcielly-souza/index.php">PÁGINA INICIAL</a></li>
+  <li><a href="atv03-framcielly-souza/cadaluno.php">CADASTRO DE ALUNOS</a></li>
+  <li><a href="atv03-framcielly-souza/listaaluno.php">LISTA DE ALUNOS</a></li>
   </div>
   
   </ul>

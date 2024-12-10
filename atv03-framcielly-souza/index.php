@@ -15,9 +15,9 @@
         </div>
     <div class="nav">
 <ul>
-  <li><a href="index.html">PÁGINA INICIAL</a></li>
-  <li><a href="cadaluno.html">CADASTRO DE ALUNOS</a></li>
-  <li><a href="listaaluno.html">LISTA DE ALUNOS</a></li>
+  <li><a href="atv03-framcielly-souza/index.php">PÁGINA INICIAL</a></li>
+  <li><a href="atv03-framcielly-souza/cadaluno.php">CADASTRO DE ALUNOS</a></li>
+  <li><a href="atv03-framcielly-souza/listaaluno.php">LISTA DE ALUNOS</a></li>
   </div>
   
   </ul>
@@ -26,7 +26,7 @@
   
 
 <div class="center">
-    <div id="div1"><p>O Instituto Federal Baiano (IF Baiano) – Campus Guanambi foi uma das unidades das antigas Escolas Agrotécnicas Federais (EAFs) incorporadas ao Instituto na criação dos Institutos Federais no Brasil pela Lei n. 11.892, de 29 de dezembro de 2008.
+    <div id="div1"><h3>SOBRE O IF BAIANO</h3><br><p>O Instituto Federal Baiano (IF Baiano) – Campus Guanambi foi uma das unidades das antigas Escolas Agrotécnicas Federais (EAFs) incorporadas ao Instituto na criação dos Institutos Federais no Brasil pela Lei n. 11.892, de 29 de dezembro de 2008.
 
 Historicamente, nos anos noventa, criou-se a Escola Agrotécnica Antônio José Teixeira (Lei n. 8.670 de 1993) e foi transformada em autarquia com autonomia disciplinar e acadêmica e seu próprio quadro de pessoal e orçamento (Lei n° 8.731 de 1993).
 
