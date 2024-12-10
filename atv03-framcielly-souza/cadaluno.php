@@ -10,15 +10,15 @@
 <body>
   <div>
 <div class="titulo">
-        <div id="dif1"><img src="image1" width="30%" height="30%"></div>
+        <div id="dif1"></div>
         <div id="dif2"><h1>SISTEMA IF BAIANO-Campus Guanambi</h1></div>
           <div id="dif3"> </div>
         </div>
     <div class="nav">
 <ul>
-  <li><a href="atv03-framcielly-souza/index.php">PÁGINA INICIAL</a></li>
-  <li><a href="atv03-framcielly-souza/cadaluno.php">CADASTRO DE ALUNOS</a></li>
-  <li><a href="atv03-framcielly-souza/listaaluno.php">LISTA DE ALUNOS</a></li>
+  <li><a href="index.php">PÁGINA INICIAL</a></li>
+  <li><a href="cadaluno.php">CADASTRO DE ALUNOS</a></li>
+  <li><a href="listaaluno.php">LISTA DE ALUNOS</a></li>
   </div>
   
   </ul>
@@ -29,35 +29,22 @@
   <form action="listaaluno.php" method="post">
     <div id="a1">
     <label>Nome</label>
-      <input type="text" name="nome" id="nome" placeholder="Ex: Ana...">
+      <input type="text" name="nome" id="nome" placeholder="Ex: Ana..." required>
       </div>
        <div id="a2">
       <label>Endereço</label>
-      <input type="text" name="end" id="end" placeholder="Ex: Rua A...">
+      <input type="text" name="end" id="end" placeholder="Ex: Rua A..."required>
       </div>
 
       <div id="a3">
       <label>Bairro</label>
-      <input type="text" name="br" id="br" placeholder="Ex: Bairro Branco...">
+      <input type="text" name="br" id="br" placeholder="Ex: Bairro Branco..."required>
     </div>
      
     <div id="a4">
       <label>Cidade</label>
-      <input type="text" name="cid" id="cid" placeholder="Ex: Guanambi...">
-    </div>
-    <div id="a5">
-      <label >CPF</label>
-                    <input type="number" id="cpf" name="cpf" maxlength="14" placeholder="Ex: 000.000.000-00">
-                    </div>
-               <div id="a6">     
-            <label >Celular</label>
-                    <input type="number" id="cel" name="cel" placeholder="Ex:(DDD) 0000-0000">
-      </div>
-      <div id="a7">
-         <label >WhatsApp</label>
-                    <input type="number" id="num" name="num" placeholder="Ex:+55(DDD) 0000-0000">
-                      </div>     
-<div id="a8">
+      <input type="text" name="cid" id="cid" placeholder="Ex: Guanambi..."required></div>
+
 <label>UF</label>
     <select id="uf" name="uf">
       <option value="AC">AC</option>
@@ -87,12 +74,19 @@
       <option value="SE">SE</option>
       <option value="TO">TO</option>
     </select>
-   
-    </div>
+    <br>
     
-               <div id="a9">
-                 <label>Data de Nascimento</label> <input type="date" id="nascimento" name="nascimento" placeholder="DD/MM/AA"><br>
-                 </div>
+  
+      <label >CPF</label>
+                    <input type="number" id="cpf" name="cpf" maxlength="14" placeholder="Ex: 000.000.000-00"required>
+                    
+            <label >Celular</label>
+                    <input type="number" id="cel" name="cel" placeholder="Ex:(DDD) 0000-0000"required>
+      
+                    <input type="number" id="num" name="num" placeholder="Ex:+55(DDD) 0000-0000"required>
+                                        
+                 <label>Data de Nascimento</label> <input type="date" id="nascimento" name="nascimento" placeholder="DD/MM/AA"required>
+                 
         <label><h4>Disciplinas Preferidas</h4></label>
         <label for="m1">Banco de Dados</label>
 <input type="checkbox" id="m1" name="m1" value="Materias Curriculares EM com todas do curso técnico">
@@ -126,10 +120,6 @@
     </div>
     
    
-    <div>
-        
-    <a href="listaaluno.html"></a>
-</div>
 <div>
  
     <input type="submit" value="ENVIAR">
