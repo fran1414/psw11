@@ -1,48 +1,223 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Aula sobre</title>
-</head>
-<body>
-  <div>
-    <div class="titulo">
-        <div id="dif1"></div>
-        <div id="dif2"><h1>SISTEMA IF BAIANO-Campus Guanambi</h1></div>
-          <div id="dif3"> </div>
-        </div>
-    <div class="nav">
-<ul>
-  <li><a href="index.php">PÁGINA INICIAL</a></li>
-  <li><a href="cadaluno.php">CADASTRO DE ALUNOS</a></li>
-  <li><a href="listaaluno.php">LISTA DE ALUNOS</a></li>
-  </div>
-  
-  </ul>
-    
-  </div>
-  
-<div>
-  
-<div class="center">
-    <div id="div1"><h3>SOBRE O INSTITUTO...</h3><p>O Instituto Federal Baiano (IF Baiano) – Campus Guanambi foi uma das unidades das antigas Escolas Agrotécnicas Federais (EAFs) incorporadas ao Instituto na criação dos Institutos Federais no Brasil pela Lei n. 11.892, de 29 de dezembro de 2008.
+#dif1{
+    width: 20%;
+    height: 100%;
+    background-color: mediumseagreen;
+}
+#dif2{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    background-color: mediumseagreen;
+}
+#dif3{
+    width: 20%;
+    height: 100%;
+    background-color: mediumseagreen;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: seagreen;
+}
 
-Historicamente, nos anos noventa, criou-se a Escola Agrotécnica Antônio José Teixeira (Lei n. 8.670 de 1993) e foi transformada em autarquia com autonomia disciplinar e acadêmica e seu próprio quadro de pessoal e orçamento (Lei n° 8.731 de 1993).
+li {
+  float: left;
+}
 
-Situado dentro do Território de Identidade Sertão Produtivo, o campus forma profissionais e contribui com a melhoria dos produtos regionais, na qualificação e na assessoria técnica prestada aos pequenos e médios produtores rurais.</p><br><p>O Ensino viabiliza a formação humana e integral de indivíduos para o desenvolvimento profissional; atua com a verticalização dos estudos (educação básica a superior) por meio de cursos presenciais e à distância; planeja, acompanha, desenvolve, implementa e avalia os processos de educação que se baseiam nos princípios de interdisciplinaridade, transdisciplinaridade, relações étnico-raciais, educação ambiental, inclusão, sustentabilidade, multiculturalidade e igualdade de condições sociais voltados às demandas locais e regionais. </p></div>
-<div id="div2"></div>
-</div>
-    <div class="rodape">
-  <p>
-  Instituto Federal de Educação, Ciência e Tecnologia da Bahia - Campus Guanambi <br>
-    Telefone: (77) 0000-0000 | E-mail: contato@ifba.edu.br www.ifba.edu.br </p>
-</div>
-  
-</div>
-  
-</div>
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-</body>
-</html
+.titulo{
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+text-align: left;
+background-color: mediumseagreen; 
+}
+
+.nav{
+  height:100%;
+ display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+background-color: seagreen;
+}
+.center{
+   
+    width: 50%;
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+#div1{
+    width: 100%;
+    height: 650px;
+ border: solid;
+}
+
+img{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+}
+
+input[type=text] {
+width: 100%;
+    padding: 11px 9px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+#a1{
+  width: 45%;
+  padding: 12px 20x;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#a2{
+  width: 45%;
+  padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#a3{
+  width: 45%;
+  padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#a4{
+  width: 45%;
+  padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+  select{
+  width: 100%;
+    padding: 11px 9px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  
+    background-color: white;
+  }
+  #a0{
+    width: 45%;
+  padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=number] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #a10{
+    width: 45%;
+padding: 12px 10px;
+margin: 8px 0;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+  }
+  #a11{
+    width: 45%;
+  padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #a12{
+    width: 45%;
+  padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: mediumseagreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  div {
+    padding: 5px 5px;
+  }
+
+  input[type=date] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+
+h2 {
+  text-align: center;
+  color: rgb(14, 131, 67);
+}
+
+
+td, th, table {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape{
+  background-color: mediumseagreen;
+  height:80px;
+  text-align: center;
+  padding: 12px;
+}
