@@ -10,7 +10,7 @@
 <body>
   <div>
 <div class="titulo">
-        <div id="dif1"></div>
+        <div id="dif1"><img src="foto1.png" width="30%" height="30%"></div>
         <div id="dif2"><h1>SISTEMA IF BAIANO-Campus Guanambi</h1></div>
           <div id="dif3"> </div>
         </div>
@@ -44,7 +44,7 @@
     <div id="a4">
       <label>Cidade</label>
       <input type="text" name="cid" id="cid" placeholder="Ex: Guanambi..."required></div>
-
+<div id="a0">
 <label>UF</label>
     <select id="uf" name="uf">
       <option value="AC">AC</option>
@@ -75,19 +75,25 @@
       <option value="TO">TO</option>
     </select>
     <br>
+      
+    </div>
     
-  
+  <div id="a10">
       <label >CPF</label>
                     <input type="number" id="cpf" name="cpf" maxlength="14" placeholder="Ex: 000.000.000-00"required>
-                    
+                    </div>
+                     <div id="a11">
+                       
             <label >Celular</label>
                     <input type="number" id="cel" name="cel" placeholder="Ex:(DDD) 0000-0000"required>
-      
-                    <input type="number" id="num" name="num" placeholder="Ex:+55(DDD) 0000-0000"required>
-                                        
+        
+      </div>
+              <div id="a12">
                  <label>Data de Nascimento</label> <input type="date" id="nascimento" name="nascimento" placeholder="DD/MM/AA"required>
+               </div> 
                  
-        <label><h4>Disciplinas Preferidas</h4></label>
+               </div>
+        <label><h4>DISCIPLINAS PREFERIDAS </h4></label>
         <label for="m1">Banco de Dados</label>
 <input type="checkbox" id="m1" name="m1" value="Materias Curriculares EM com todas do curso técnico">
         <br>
@@ -102,7 +108,7 @@
  <label for="m5">Projeto Integrador</label>
 <input type="checkbox" id="m5" name="m5" value="Materias Curriculares EM com todas do curso técnico">
 
-  <label><h4>Disciplinas Cursadas</h4></labe>
+  <label><h4>DISCIPLINAS CURSADAS</h4></labe>
         <br>
         <label for="m1">Banco de Dados</label>
 <input type="checkbox" id="m1" name="m1" value="Materias Curriculares EM com todas do curso técnico">
@@ -141,6 +147,7 @@
 </div>
   
 </div>
+@media
   
 </body>
 </html>

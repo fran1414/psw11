@@ -10,7 +10,7 @@
 <body>
     <div>
      <div class="titulo">
-        <div id="dif1"></div>
+        <div id="dif1"><div id="dif1"><img src="foto1.png" width="30%" height="30%"></div></div>
         <div id="dif2"><h1>SISTEMA IF BAIANO-Campus Guanambi</h1></div>
           <div id="dif3"> </div>
         </div>
@@ -20,72 +20,12 @@
   <li><a href="cadaluno.php">CADASTRO DE ALUNOS</a></li>
   <li><a href="listaaluno.php">LISTA DE ALUNOS</a></li>
   </div>
-  
+
   </ul>
     </div>
-    
 
-<?php
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-  $nome = htmlspecialchars($_POST['nome']);
-  $end = htmlspecialchars($_POST['end']);
-  $br = htmlspecialchars($_POST['br']);
-  $cid = htmlspecialchars($_POST['cid']);
-  $uf = htmlspecialchars($_POST['uf']);
-  $cpf = htmlspecialchars($_POST
-  ['cpf']);
-  $cel = htmlspecialchars($_POST['cel']);
-  $nascimento = htmlspecialchars($_POST['nascimento']);
 
-echo "<table> 
-<tr>
-<th>Nome</th>
-<td>$nome</td>
-</tr>
-
-<tr>
-<th>Endereço</th>
-<td>$end</td>
-</tr>
-
-<tr>
-<th>Bairro</th>
-<td>$br</td>
-</tr>
-
-<tr>
-<th>Cidade</th>
-<td>$cid</td>
-</tr>
-
-<tr>
-<th>UF</th>
-<td>$uf</td>
-</tr>
-
-<tr>
-<th>CPF</th>
-<td>$cpf</td>
-</tr>
-
-<tr>
-<th>Celular</th>
-<td>$cel</td>
-</tr>
-
-<tr>
-<th>Data de Nascimento</th>
-<td>$nascimento</td>
-</tr>
-</table>";
-} else {
-  echo "<p>Erro: este formulário não foi enviado corretamente.</p>";
-}
-?>
- 
- <br>
- <br>
 
 
 
@@ -103,10 +43,10 @@ echo "<table>
 <th>CPF</th>
         <th>CELULAR</th>
         <th>DATA DE NASCIMENTO</th>
-        
+
         </tr>
         <tr>
-  
+
             <td>Francielly Da Paz Souza</td>
             <td>Rua 15 de julho</td>
             <td>Bairro Porto Alegre</td>
@@ -137,11 +77,40 @@ echo "<table>
            <td>(77)999082516</td>
            <td>11/03/2008</td>
         </tr>
-            
-   
-        
+
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+  $nome = htmlspecialchars($_POST['nome']);
+  $end = htmlspecialchars($_POST['end']);
+  $br = htmlspecialchars($_POST['br']);
+  $cid = htmlspecialchars($_POST['cid']);
+  $uf = htmlspecialchars($_POST['uf']);
+  $cpf = htmlspecialchars($_POST
+  ['cpf']);
+  $cel = htmlspecialchars($_POST['cel']);
+  $nascimento = htmlspecialchars($_POST['nascimento']);
+
+echo "<table> 
+<td>$nome</td>
+<td>$end</td>
+<td>$br</td>
+<td>$cid</td>
+<td>$uf</td>
+<td>$cpf</td>
+<td>$cel</td>
+<td>$nascimento</td>
+</table>";
+} else {
+  echo "<p>Erro: este formulário não foi enviado corretamente.</p>";
+}
+?>
+
+ <br>
+ <br>
+
 </table>
-      
+
     <div class="rodape">
       <h5>Instituto Federal de Educação, Ciência e Tecnologia da Bahia - Campus Guanambi</h5>
 Telefone: (77) 0000-0000 | E-mail: contato@ifba.edu.br
@@ -149,6 +118,3 @@ www.ifba.edu.br
 </div>
 </body>
 </html>
-
-
-
